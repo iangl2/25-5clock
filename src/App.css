@@ -1,0 +1,89 @@
+*{
+ 
+    margin: 0;
+    text-align: center;
+}
+:root {
+    --triangleSize:4.5vh;
+  }
+  .clock{
+   height: 65vh;
+   margin:auto;
+   margin-top: 17.5vh;
+   width: 40%;
+
+  }
+ .setter{
+    width: 75%;
+    height: 30vh;
+    margin: auto;
+ }
+ .up-down{
+    margin-right: 3%;
+ }
+.increment, .decrement{
+    height: 50px;
+    width: 50px;
+    
+}
+.increment{
+    margin-bottom: 1vh;
+    width: 0; 
+    height: 0; 
+    border-left: var(--triangleSize) solid transparent;
+    border-right: var(--triangleSize)solid transparent;
+    border-bottom: var(--triangleSize) solid  #4b7123 ;
+}
+.decrement{
+  
+  width: 0; 
+  height: 0; 
+  border-left: var(--triangleSize) solid transparent;
+  border-right: var(--triangleSize) solid transparent;
+  border-top: var(--triangleSize) solid #4b7123;
+
+}
+#break-label,#session-label{
+    color:  #4b7123 ;
+    width:47%;
+    margin-left: auto;
+}
+#session-length,#break-length{
+font-size: 8vh;
+margin:auto;
+margin-top: 3.5vh;
+background-color:  #4b7123 ;
+color:#a4fc46;
+
+
+}
+#session-div{
+    margin-left:auto;
+}
+#timer-label{
+    font-size: 5vh;
+    color:#4b7123 ;
+}
+#time-left{
+    font-size: 10vh;
+    background-color: white;
+    color:#4b7123;
+
+}
+#control-timer{
+    width:15%;
+    margin: auto;
+    margin-top: 3vh;
+    color: #4b7123;
+}
+#reset{
+    margin-left: auto;
+}
+.controls,.setter{
+    display: flex;
+}
+.increment:hover, .decrement:hover,i:hover{
+    cursor: pointer;
+}
+
+
